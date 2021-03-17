@@ -2,7 +2,7 @@
 
 This project is a playable game of Rock, Paper, Scissors that you can play in the browser. The game is played against a computer making random decisions.
 
-Check out the live demo [here]().
+Check out the live demo [here](https://morgan-moreno25.github.io/rock-paper-scissors/).
 
 <img src="./assets/demo-screenshot.png" alt="Screenshot of the live demo">
 
