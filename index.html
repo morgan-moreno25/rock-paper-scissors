@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
+		/>
+		<link rel="stylesheet" href="index.css" />
+		<title>Rock Paper Scissors</title>
+	</head>
+	<body>
+		<div id="app">
+			<header id="header" class="navbar bg-dark">
+				<h1 class="text-white">RPS</h1>
+				<div id="nav-links">
+					<a href="https://www.linkedin.com/in/morganmoreno444" class="text-white"
+						><i class="bi bi-linkedin"></i
+					></a>
+					<a href="https://www.github.com/morgan-moreno25/rock-paper-scissors" class="text-white"
+						><i class="bi bi-github"></i
+					></a>
+				</div>
+			</header>
+			<main id="content">
+				<div id="game" class="card">
+					<div id="game-title" class="card-title">
+						<p class="h3">Rock, Paper, Scissors</p>
+					</div>
+					<div id="game-body" class="card-body">
+						<div id="game-scoreboard">
+							<div id="game-player">
+								<p id="player-name">Player</p>
+								<div class="score">
+									<p id="player-score">0</p>
+								</div>
+							</div>
+							<span></span>
+							<div id="game-computer">
+								<p>Computer</p>
+								<div class="score">
+									<p id="computer-score">0</p>
+								</div>
+							</div>
+						</div>
+						<div id="game-results">
+							<button class="btn btn-danger" id="start-btn">Start Game</button>
+						</div>
+					</div>
+					<div id="game-footer" class="card-footer">
+						<button class="btn btn-primary" id="rock-btn">Rock</button>
+						<button class="btn btn-primary" id="paper-btn">Paper</button>
+						<button class="btn btn-primary" id="scissors-btn">Scissors</button>
+					</div>
+				</div>
+			</main>
+		</div>
+
+		<!-- JavaScript Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+			crossorigin="anonymous"
+		></script>
+		<script src="index.js"></script>
+	</body>
+</html>
